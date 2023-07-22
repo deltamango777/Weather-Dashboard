@@ -1,102 +1,34 @@
-# 06 Server-Side APIs: Weather Dashboard
+# Weather Dashboard
 
-## Your Task
+## Description
 
-Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL. Developers are often tasked with retrieving data from another application's API and using it in the context of their own. Your challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS.
+This is a weather dashboard designed to utilize a 3rd party api to accurately provide a 5 day forecast for any city searched. It is designed to run in the browser and will feature dynamically updated html and css.
 
-Use the [5 Day Weather Forecast](https://openweathermap.org/forecast5) to retrieve weather data for cities. The base URL should look like the following: `https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}`. After registering for a new API key, you may need to wait up to 2 hours for that API key to activate.
+- What was your motivation?
+To create an app via the utilization of a 3rd party api, and further hone my skills in js development via novelty solutions to simple tasks.
+- Why did you build this project? (Note: the answer is not \"Because it was a homework assignment.")
+I built this project in hope of understanding how to implement a 3rd party api that can access data in real time, so that it preps me better for future projects. 
+- What problem does it solve?
+This app helps the user know the weather ahead of time, with real time data that is accessible for any point in the world. 
+- What did you learn?
+To be able to use a 3rd party api is to be able to do so much more with your sites than previously capable. It opens up a whole new world of possibility in web development for me. 
 
-**Hint**: Using the 5 Day Weather Forecast API, you'll notice that you will need to pass in coordinates instead of just a city name. Using the OpenWeatherMap APIs, how could we retrieve geographical coordinates given a city name?
+## Installation
 
-You will use `localStorage` to store any persistent data. For more information on how to work with the OpenWeather API, refer to the [Full-Stack Blog on how to use API keys](https://coding-boot-camp.github.io/full-stack/apis/how-to-use-api-keys).
+Simply go to the site link or right click open the index file on your local drive, to see it open in a browser.
 
-## User Story
+## Usage
 
-```
-AS A traveler
-I WANT to see the weather outlook for multiple cities
-SO THAT I can plan a trip accordingly
-```
+Open the app, click the search bar, type in a city name, and press enter. There should now be a dashboard showing the 5 day forecast for that city, as well as the city name being saved under the search bar for more easy accesbility the next time you want to check  its specific weather. 
 
-## Acceptance Criteria
+## Credits
 
-```
-GIVEN a weather dashboard with form inputs
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, and the wind speed
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
-```
+n/a
 
-## Mock-Up
+OpenWeather Api. Located at https://openweathermap.org/api
 
-The following image shows the web application's appearance and functionality:
+n/a
 
-![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for Atlanta.](./Assets/06-server-side-apis-homework-demo.png)
+## License
 
-## Grading Requirements
-
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
-
-This Challenge is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-    * Uses the OpenWeather API to retrieve weather data.
-
-    * Uses `localStorage` to store persistent data.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the Challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a readme describing the project.
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+https://openweathermap.org/api
