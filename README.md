@@ -21,6 +21,8 @@ Simply go to the site link or right click open the index file on your local driv
 
 Open the app, click the search bar, type in a city name, and press enter. There should now be a dashboard showing the 5 day forecast for that city, as well as the city name being saved under the search bar for more easy accesbility the next time you want to check  its specific weather. 
 
+![Display of this app working.](image.png)
+
 ## Credits
 
 n/a
